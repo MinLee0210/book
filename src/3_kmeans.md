@@ -77,4 +77,4 @@ Notice that the pattern-matching here is exhaustive! For KMeans, this isn't impo
 ```
 And that's it! Note that there's not separate step for saving the final product, since that's automatically taken care of by our backend. The final visualization of the clusters created by the KMeans algorithm will look like the following:
 
-![KMeans](assets/kmeans.png)
+![KMeans](../assets/kmeans.png)

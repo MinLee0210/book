@@ -9,7 +9,7 @@ The DBSCAN algorithm (Density-Based Spatial Clustering Algorithm with Noise) was
 
 Before getting into the code, let's examine how these differences in approach plays out on different types of data. In the images below, both the DBSCAN and KMeans algorithms were applied to the same dataset. The KMeans algorithm was manually set to find 3 clusters (remember, DBSCAN automatically calculates the number of clusters based on the provided parameters).
 
-<img src="assets/clustering_comparison.png" alt="Comparison" width=600px height=300px align="middle">
+<img src="../assets/clustering_comparison.png" alt="Comparison" width=600px height=300px align="middle">
 
 This example[^1] demonstrates two of the major strengths of DBSCAN over an algorithm like KMeans; it is able to automatically detect the number of clusters that meet the set of given parameters. Keep in mind that this doesn't mean DBSCAN require less information about the dataset, but rather that the information it does require differs from an algorithm like KMeans.
 
@@ -44,7 +44,7 @@ Remember how we mentioned DBSCAN is an algorithm that can exclude noise? That's 
 
 As a result, we then get the following chart, where each cluster is uniquely identified, and some of the random noise associated with the dataset is discarded.  
 
-<img src="assets/dbscan.png" alt="DBSCAN" width=500px height=450px align="middle">
+<img src="../assets/dbscan.png" alt="DBSCAN" width=500px height=450px align="middle">
 
 ---
 [^1]: This code for this comparison is actually separate from the main DBSCAN example. It can be found at `examples/clustering_comparison.rs`.
